@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import {Menu} from './menu';
 
 function App(props) {
   console.log('Properties ', props);
@@ -18,6 +19,7 @@ function App(props) {
   console.log('Rendering component');
   return (
     <div>
+      <Menu></Menu>
         <h1>Bienvenido a la clase de {props.materia}</h1>
         <h2>Hola {nombre} has dado click {count} veces </h2>
         <p>

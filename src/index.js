@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {App, AppClass} from './landing/';
 import reportWebVitals from './reportWebVitals'; 
+import Main from './main';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App materia="reactjs" />
+    <Main></Main>
   </React.StrictMode>
 );
 
